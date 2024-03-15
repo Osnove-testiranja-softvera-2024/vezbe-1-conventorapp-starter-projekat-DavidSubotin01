@@ -46,12 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\LenghtConvert.cs" />
+    <Compile Include="Classes\CustomMoneyConverter.cs" />
+    <Compile Include="Classes\MassConvert.cs" />
+    <Compile Include="Classes\MoneyConverter.cs" />
+    <Compile Include="Classes\TimeConverter.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IConvert.cs" />
+    <Compile Include="Interfaces\ITime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
